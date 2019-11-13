@@ -16,19 +16,11 @@ class f1 : Fragment() {
     companion object {
         const val TAG = "f1"
     }
-/*
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
         //初始化頁面
         Log.e(TAG,"onCreate")
-    }*/
-
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-        //view!!.setContentView(R.layout.fragment_f1)
-        Log.e(TAG,"onCreate")
-
     }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
